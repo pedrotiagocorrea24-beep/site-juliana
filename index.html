@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Juliana | Educadora Infantil em Goiânia</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:#fdfdfd;
+    color:#333;
+}
+
+header{
+    background:linear-gradient(135deg,#ffb6c1,#ffd966);
+    padding:80px 20px;
+    text-align:center;
+    color:#fff;
+}
+
+header h1{
+    font-size:3rem;
+    margin-bottom:10px;
+}
+
+header p{
+    font-size:1.2rem;
+    max-width:700px;
+    margin:auto;
+}
+
+.btn{
+    display:inline-block;
+    margin-top:25px;
+    padding:14px 30px;
+    background:#fff;
+    color:#ff6f91;
+    text-decoration:none;
+    border-radius:50px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.btn:hover{
+    transform:translateY(-3px);
+}
+
+section{
+    padding:70px 10%;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:50px;
+    color:#ff6f91;
+    font-size:2rem;
+}
+
+.about{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:40px;
+    align-items:center;
+}
+
+.about img{
+    width:100%;
+    border-radius:20px;
+}
+
+.about-text p{
+    line-height:1.8;
+}
+
+.services{
+    background:#f9f9f9;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:#fff;
+    padding:30px;
+    border-radius:20px;
+    box-shadow:0 5px 15px rgba(0,0,0,.08);
+    text-align:center;
+}
+
+.card h3{
+    margin:15px 0;
+    color:#ff6f91;
+}
+
+.benefits ul{
+    max-width:700px;
+    margin:auto;
+    list-style:none;
+}
+
+.benefits li{
+    background:#fff;
+    margin:15px 0;
+    padding:15px;
+    border-radius:10px;
+    box-shadow:0 3px 10px rgba(0,0,0,.05);
+}
+
+.contact{
+    background:linear-gradient(135deg,#6ec6ff,#7ee8a8);
+    color:white;
+    text-align:center;
+}
+
+.contact p{
+    margin:10px 0;
+    font-size:1.1rem;
+}
+
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+@media(max-width:768px){
+    .about{
+        grid-template-columns:1fr;
+    }
+
+    header h1{
+        font-size:2.2rem;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Juliana</h1>
+    <p>
+        Educadora Infantil em Goiânia dedicada ao desenvolvimento,
+        aprendizagem e bem-estar das crianças através de atividades
+        educativas, lúdicas e personalizadas.
+    </p>
+
+    <a href="https://wa.me/5562999999999" class="btn">
+        Agendar Atendimento
+    </a>
+</header>
+
+<section>
+    <h2 class="section-title">Sobre Mim</h2>
+
+    <div class="about">
+        <img src="https://images.unsplash.com/photo-1516627145497-ae6968895b74?w=800" alt="Educadora Infantil">
+
+        <div class="about-text">
+            <p>
+                Olá! Sou Juliana, educadora infantil apaixonada pelo universo
+                da infância e pelo desenvolvimento das crianças.
+            </p>
+
+            <br>
+
+            <p>
+                Meu trabalho é oferecer acompanhamento educativo,
+                reforço pedagógico, atividades recreativas e apoio ao
+                desenvolvimento infantil de forma acolhedora, respeitando
+                as necessidades e o ritmo de cada criança.
+            </p>
+
+            <br>
+
+            <p>
+                Atendo famílias em Goiânia que buscam um acompanhamento
+                humanizado, seguro e focado na aprendizagem por meio do brincar.
+            </p>
+        </div>
+    </div>
+</section>
+
+<section class="services">
+    <h2 class="section-title">Serviços</h2>
+
+    <div class="cards">
+
+        <div class="card">
+            <h3>🎨 Recreação Educativa</h3>
+            <p>
+                Atividades lúdicas que estimulam criatividade,
+                imaginação e interação social.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>📚 Apoio Pedagógico</h3>
+            <p>
+                Acompanhamento escolar e reforço para educação infantil.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>🧩 Desenvolvimento Infantil</h3>
+            <p>
+                Estímulo à coordenação motora, autonomia
+                e habilidades cognitivas.
+            </p>
+        </div>
+
+        <div class="card">
+            <h3>🏠 Atendimento Domiciliar</h3>
+            <p>
+                Atendimento personalizado no conforto da residência da família.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<section class="benefits">
+    <h2 class="section-title">Por Que Escolher Meu Trabalho?</h2>
+
+    <ul>
+        <li>✅ Atendimento individualizado para cada criança.</li>
+        <li>✅ Metodologias lúdicas e educativas.</li>
+        <li>✅ Comunicação constante com os responsáveis.</li>
+        <li>✅ Ambiente acolhedor e seguro.</li>
+        <li>✅ Foco no desenvolvimento integral da criança.</li>
+    </ul>
+</section>
+
+<section class="contact">
+    <h2>Entre em Contato</h2>
+
+    <p>📍 Goiânia - GO</p>
+    <p>📱 WhatsApp: (62) 99999-9999</p>
+    <p>📧 contato@julianaeducadora.com.br</p>
+
+    <a href="https://wa.me/5562999999999" class="btn">
+        Falar no WhatsApp
+    </a>
+</section>
+
+<footer>
+    © 2026 Juliana - Educadora Infantil | Todos os direitos reservados.
+</footer>
+
+</body>
+</html>
